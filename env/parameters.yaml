@@ -1,0 +1,15 @@
+adminUser:
+  password: local:kubernetes/adminUser:password
+  username: admin
+docker:
+  email: adrianiacob22@gmail.com
+  password: local:kubernetes/docker:password
+  url: https://index.docker.io/v1/
+  username: adrianiacob22
+enableDocker: true
+pipelineUser:
+  email: adrianiacob22@yahoo.com
+  token: local:kubernetes/pipelineUser:token
+  username: ai-jx-bot
+prow:
+  hmacToken: local:kubernetes/prow:hmacToken
